@@ -9,7 +9,7 @@ function About() {
         <div className='conatiner max-w-[1200px] mx-auto p-15 '>
             <div className='h-full w-full grid grid-cols-1 sm:grid-cols-3 gap-4  justify-center gap-15'> 
             <div className='flex flex-col min-h-[134px] border border-white rounded-[15px] gap-[10px] p-2   '>
-                <h1 className='text-[#0796EF] font-medium text-[16px] leading-[100%] tracking-[0.03em] uppercase '>contact us</h1>
+                <h1 className='text-[#0796EF] font-medium text-[16px] leading-[100%] tracking-[0.03em] uppercase  text-center'>contact us</h1>
              
                 <p className='text-[#857878] text-center flex justify-center items-center'>    <Phone className='text-[#C5A059] w-[14px] h-[12px]'/>+91 9567843340</p>
                 <p className='text-[#857878] text-center flex justify-center items-center'> <Mail className='text-[#C5A059] w-[14px] h-[12px]'/>info@deepnetsoft.com</p>
