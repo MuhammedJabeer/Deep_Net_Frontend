@@ -75,10 +75,10 @@ function Itemlist() {
                     key={index}
                     className="flex flex-col gap-2 w-full max-w-[500px]"
                   >
-                    <h2 className="text-white text-lg sm:text-2xl font-semibold">
+                    <h2 className="text-white text-lg sm:text-2xl font-semibold font-oswald">
                       {item.ItemName} ............. ${item.Price}
                     </h2>
-                    <p className="text-sm sm:text-lg text-justify text-gray-300">
+                    <p className="text-sm sm:text-lg text-justify text-gray-300 font-kelly">
                       {item.Description}
                     </p>
                   </div>

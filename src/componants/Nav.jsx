@@ -62,7 +62,7 @@ function Nav() {
 
       
       {Mobilemenu && (
-        <div className="md:hidden flex flex-col items-center gap-4 p-[40px] text-sm">
+        <div className="md:hidden flex flex-col items-center gap-4 p-[40px] text-sm text-white ">
           <p className="cursor-pointer hover:text-[#0796EF]">HOME</p>
           <p className="cursor-pointer hover:text-[#0796EF]">MENU</p>
           <p

@@ -17,11 +17,11 @@ function Menubanner() {
           <h1
             className="text-[76px] font-bold"
             style={{ textShadow: '4px 3px 0px #800020' }}
-          >
+           >
             MENU
           </h1>
 
-          <p className="text-[18px] font-kelly text-neutral-400">
+          <p className="text-[18px] font-kelly text-neutral-400 font-kelly ">
             Please take a look at our menu featuring food, drinks, and brunch.
             If you'd like to place an order, use the "Order Online" button
             located below the menu.

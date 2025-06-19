@@ -9,7 +9,7 @@ function About() {
         <div className='conatiner max-w-[1200px] mx-auto p-15 '>
             <div className='h-full w-full grid grid-cols-1 sm:grid-cols-3 gap-4  justify-center gap-15'> 
             <div className='flex flex-col min-h-[134px] border border-white rounded-[15px] gap-[10px] p-2   '>
-                <h1 className='text-[#0796EF] text-center text-[16px]'>contact us</h1>
+                <h1 className='text-[#0796EF] font-medium text-[16px] leading-[100%] tracking-[0.03em] uppercase '>contact us</h1>
              
                 <p className='text-[#857878] text-center flex justify-center items-center'>    <Phone className='text-[#C5A059] w-[14px] h-[12px]'/>+91 9567843340</p>
                 <p className='text-[#857878] text-center flex justify-center items-center'> <Mail className='text-[#C5A059] w-[14px] h-[12px]'/>info@deepnetsoft.com</p>
@@ -21,9 +21,9 @@ function About() {
                          <img   src={logo} alt='logo' />
                 </div>
                 <div className='flex justify-center gap-[10px]'>
-                 <h1 className='text-[#0796EF] text-center'>DEEP</h1>
-                <h1 className='text-white text-center'>NET</h1>
-                <h1 className='text-[#857878] text-center'>SOFT</h1>
+                 <h1 className='text-[#0796EF] text-center  font-oswald font-normal text-[35px] leading-[100%] tracking-[0.03em]'>DEEP</h1>
+                <h1 className='text-white text-center  font-oswald font-normal text-[35px] leading-[100%] tracking-[0.03em]'>NET</h1>
+                <h1 className='text-[#857878] text-center  font-oswald font-normal text-[35px] leading-[100%] tracking-[0.03em]'>SOFT</h1>
                 </div>
                
                <div className='flex justify-center gap-[10px]'>
@@ -40,7 +40,7 @@ function About() {
             </div>
 
              <div className='flex flex-col min-h-[134px] border border-white rounded-[15px] gap-[10px] p-2'>
-                <h1 className='text-[#0796EF] text-center'>Find Us</h1>
+                <h1 className='text-[#0796EF] text-center  "font-oswald font-medium text-[16px] leading-[100%] tracking-[0.03em] uppercase '>Find Us</h1>
                 <p className='text-[#857878] text-center flex justify-center  gap-[5px]'><MapPin className='text-[#C5A059] w-[14px] h-[12px]'/>First floor, Geo infopark, <br/>Infopark EXPY, Kakkanad</p>
 
 
