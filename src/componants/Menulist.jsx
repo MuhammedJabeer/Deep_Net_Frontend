@@ -19,15 +19,25 @@ function Menulist() {
 
 
   return (
-    <div   className="  "style={{backgroundImage: `linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(${menu})` }}>
-              <div className='container mx-w-[1200px] min-h-[79px] mx-auto flex justify-center gap-2 p-4'>
-         {menus.map(menus=>(
-                      <button  key={menus._id}  onClick={()=>setSelectedMenuId(menus._id)} className='w-[114px] h-[50px]  border-[0.5px] border-[#0796EF] bg-[#000000] text-white hover:bg-[#0796EF] '>{menus.name}</button>
-         ))}
-               
-                 
-              </div>
-    </div>
+  <div
+  className=""
+  style={{
+    backgroundImage: `linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(${menu})`,
+  }}
+>
+  <div className="container max-w-[1200px] min-h-[79px] mx-auto flex flex-wrap justify-center gap-2 p-4">
+    {menus.map((menus) => (
+      <button
+        key={menus._id}
+        onClick={() => setSelectedMenuId(menus._id)}
+        className="w-[114px] h-[50px] border border-[#0796EF] bg-black text-white hover:bg-[#0796EF] transition-all duration-300"
+      >
+        {menus.name}
+      </button>
+    ))}
+  </div>
+</div>
+
   )
 }
 

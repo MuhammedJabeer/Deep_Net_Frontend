@@ -4,6 +4,7 @@ import Menubanner from './componants/Menubanner'
 import Menulist from './componants/Menulist'
 import Itemlist from './componants/Itemlist'
 import About from './componants/About'
+import Footer from './componants/Footer'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
           <Menulist/>
           <Itemlist/>
           <About/>
+          <Footer/>
     </>
   )
 }

@@ -41,7 +41,7 @@ function Itemlist() {
         />
 
         {/* Main Content */}
-        <div className="relative flex-1 mx-2 min-h-[300px] border border-white flex items-center justify-center">
+        <div className="relative flex-1 mx-2 min-h-[300px] border border-white flex items-center justify-center max-w-[1200px]">
           {/* Floating Images */}
           <img
             className="absolute w-[60px] h-[90px] top-[-20px] left-0 sm:top-[-75px] sm:left-[-33px] sm:w-[110px] sm:h-[150px]"
