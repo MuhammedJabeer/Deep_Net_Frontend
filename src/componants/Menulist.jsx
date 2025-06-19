@@ -30,7 +30,7 @@ function Menulist() {
       <button
         key={menus._id}
         onClick={() => setSelectedMenuId(menus._id)}
-        className="w-[114px] h-[50px] border border-[#0796EF] bg-black text-white hover:bg-[#0796EF] transition-all duration-300"
+        className="w-[114px] h-[50px] border border-[#0796EF] bg-black text-white hover:bg-[#0796EF] transition-all duration-300 font-oswald font-semibold text-[16px] leading-[100%] tracking-[0.03em] uppercase "
       >
         {menus.name}
       </button>
